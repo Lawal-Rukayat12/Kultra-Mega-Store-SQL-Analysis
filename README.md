@@ -1,15 +1,15 @@
 
-📊 SQL Case Study: Kultra Mega Store Analysis  
+# 📊 SQL Case Study: Kultra Mega Store Analysis  
 Comprehensive SQL case study analysis for Kultra Mega Stores' inventory and sales data. Includes data cleaning, business insight queries, shipping cost evaluation, customer segmentation, and performance breakdowns.
 
 ---
 
-📝 **INTRODUCTION**  
+# 📝 **INTRODUCTION**  
 Kultra Mega Stores (KMS) is a rapidly expanding retail chain in Nigeria, with operations primarily in Lagos and Abuja. This SQL case study explores historical inventory and sales data (2009–2012) to extract insights into product demand, shipping efficiency, customer segmentation, and profitability using SQL.
 
 ---
 
-📖 **BACKGROUND**  
+# 📖 **BACKGROUND**  
 As a Business Intelligence Analyst, I analyzed KMS’s operational data to provide strategic insights. The project focuses on sales trends, customer behavior, logistics optimization, and revenue opportunities.
 
 Key questions addressed include:
@@ -19,7 +19,7 @@ Key questions addressed include:
 
 ---
 
-🎯 **OBJECTIVES**
+# 🎯 **OBJECTIVES**
 - Identify best-selling product categories
 - Analyze regional sales performance
 - Evaluate appliance sales in Ontario
@@ -30,7 +30,7 @@ Key questions addressed include:
 
 ---
 
-📂 **DATA OVERVIEW**
+# 📂 **DATA OVERVIEW**
 **Dataset Origin**: Digital Skills Africa / Incubator Hub  
 **Key Table**: KMS SQL Case Study  
 **Key Fields**:
@@ -50,7 +50,7 @@ Key questions addressed include:
 
 ---
 
-📈 **KEY ANALYSIS & INSIGHTS**
+# 📈 **KEY ANALYSIS & INSIGHTS**
 
 1. **Top-Selling Product**  
 *Query:* `SELECT Product_Name, SUM(Sales) FROM ... GROUP BY Product_Name ORDER BY SUM(Sales) DESC`  
@@ -101,7 +101,7 @@ Key questions addressed include:
 
 ---
 
-📌 **FINAL CONCLUSION**  
+# 📌 **FINAL CONCLUSION**  
 This case study highlights how SQL analysis helps optimize inventory, customer targeting, and shipping cost strategies at KMS. It lays a strong foundation for future automation, Power BI integration, and advanced analytics.
 
 ---
